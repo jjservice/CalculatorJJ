@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: auto;
     background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
 }
@@ -56,10 +57,12 @@ label{
     justify-content: center;
     align-items: center;
     text-align: center;
+    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
     border-radius: 50px;
     overflow: hidden;
+    width: auto;
 }
 #display{
     flex-direction: column;

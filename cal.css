@@ -56,7 +56,8 @@ label{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
     border-radius: 50px;
-    height: 600px;
+    height: 580px;
+    margin-top: 5px;
     
     
     

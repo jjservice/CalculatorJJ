@@ -8,6 +8,9 @@
 </head>
 <body>
     <div id="calcualtor">
+        <h1>LOLLIP<ion-icon name="pin-outline"></ion-icon>P</h1>
+        <h2><ion-icon name="calculator"></ion-icon></h2>
+        <h3>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h3>
         <input id="display" readonly>
         <div id="keys">
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
@@ -22,14 +25,20 @@
             <button onclick="appendToDisplay('1')">1</button>
             <button onclick="appendToDisplay('2')">2</button>
             <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">%</button>
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="appendToDisplay('.')">.</button>
             <button onclick="calculate()">=</button>
             <button onclick="clearDisplay()" class="operator-btn">C</button>
         </div>
 
+     <div>
+        <a href="" class="homebtn"><ion-icon name="home"></ion-icon></a>
+      </div>
+               
     </div>
     <script src="cal.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

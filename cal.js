@@ -4,10 +4,6 @@ function appendToDisplay(input){
    display.value += input; 
 }
 
-function clearDisplay(){
-   display.value = '';
-}
-
 function calculate(){
     try {
         const result = eval(display.value);
@@ -16,3 +12,11 @@ function calculate(){
         display.value = 'Error: Invalid expression';
     }
 }
+
+function clearDisplay(){
+    display.value = '';
+ }
+ 
+ function deleteLastChar(){
+     display.value = display.value.slice(0, -1);
+ }

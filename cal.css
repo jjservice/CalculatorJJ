@@ -13,10 +13,11 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: flex;
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    border: none;
+    border: 2px solid gold;
     background-color: rgba(0, 0, 0, 0.74);
     color: white;
     text-shadow: 1px 1px 1px lightseagreen;
@@ -57,11 +58,7 @@ label{
     background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
     border-radius: 50px;
     height: 580px;
-    margin-top: 5px;
-    
-    
-    
-  
+    margin-top: 5px; 
 }
 #display{
     justify-content: center;
@@ -74,7 +71,6 @@ label{
     padding: 5px;
     font-size: 3rem;
     text-align: left;
-    border: none;
     background-color: rgba(0, 0, 0, 0.534);
     border: 1px solid gold;
     border-radius: 10px;
@@ -84,10 +80,17 @@ label{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(255, 166, 0, 0.897);
+    background-color: orange;
+    border: 2px solid black;
 }
 .operator-btn:active{
     background-color: lightseagreen;
+}
+.operators1{
+    background-color: orange;
+    display: flex;
+    font-size: 30px;
+    border: 2px solid black;
 }
 h1{
     letter-spacing: 2px;

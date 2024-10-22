@@ -14,10 +14,10 @@ button{
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 50px;
+    width: 40px;
     height: 50px;
-    border-radius: 50px;
-    border: 2px solid gold;
+    
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.74);
     color: white;
     text-shadow: 1px 1px 1px lightseagreen;
@@ -49,6 +49,7 @@ label{
     gap: 10px;
     padding: 2px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 #calcualtor{
     border: 6px solid darkblue;
@@ -82,7 +83,6 @@ label{
     align-items: center;
     text-align: center;
     background-color: orange;
-    border: 2px solid black;
 }
 .operator-btn:active{
     background-color: lightseagreen;
@@ -91,7 +91,7 @@ label{
     background-color: orange;
     display: flex;
     font-size: 30px;
-    border: 2px solid black;
+    
 }
 h1{
     letter-spacing: 2px;

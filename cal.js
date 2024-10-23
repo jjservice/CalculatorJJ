@@ -9,7 +9,7 @@ function calculate(){
         const result = eval(display.value);
         display.value = result;
     } catch (error) {
-        display.value = 'Error: Invalid expression';
+        display.value = 'Stupid Error';
     }
 }
 

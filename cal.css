@@ -17,6 +17,7 @@ button{
     width: 40px;
     height: 50px;
     border-radius: 20px;
+    border: 1px solid gold;
     background-color: rgba(0, 0, 0, 0.74);
     color: white;
     text-shadow: 1px 1px 1px lightseagreen;
@@ -52,6 +53,7 @@ label{
 }
 #calcualtor{
     border: 6px solid darkblue;
+    box-shadow: 0px 2px 20px lightskyblue;
     justify-content: center;
     align-items: center;
     text-align: center;

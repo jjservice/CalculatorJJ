@@ -6,12 +6,22 @@
     <link rel="stylesheet" href="cal.css">
     <title>Calculator</title>
 </head>
-<body>
+<body class="lightPlayer">
     <div id="calcualtor">
-        <h1>LOLLIP<ion-icon name="pin-outline"></ion-icon>P</h1>
-        <h2><ion-icon name="calculator"></ion-icon></h2>
+        <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
         <h3>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h3>
-        <input id="display" readonly placeholder="0">
+        <select id="languageSelect">
+            <option value="en-US">English (US)</option>
+            <option value="es-ES">Spanish (Spain)</option>
+            <option value="fr-FR">French (France)</option>
+            <option value="de-DE">German (Germany)</option>
+            <option value="it-IT">Italian (Italy)</option>
+            <option value="pt-PT">Portuguese (Portugal)</option>
+            <option value="ru-RU">Russian</option>
+            <option value="zh-CN">Chinese (Mandarin)</option>
+        </select>
+        <input type="text" id="display" disabled placeholder="0">
+        <button onclick="toggleVoiceRecognition()" class="Voice-Btn">🎙️</button>
         <div id="keys">
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('7')">7</button>
@@ -32,14 +42,12 @@
             <button onclick="clearDisplay()" class="operator-btn">C</button>
             <button onclick="deleteLastChar('d')" class="operators1">D</button>
         </div>
-
      <div>
         <a href="https://jjservice.github.io/L2/1.html" class="homebtn"><ion-icon name="home"></ion-icon></a>
-      </div>
-               
+      </div>      
     </div>
-    <script src="cal.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+<script src="Calcu2.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>

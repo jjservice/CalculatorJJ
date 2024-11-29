@@ -47,7 +47,7 @@ function toggleVoiceRecognition() {
 
         recognition.start();
         isRecording = true;
-        console.log('Speech recognition started.');
+        console.log('Lollita is listening.');
 
         recognition.onresult = function(event) {
             const spokenText = event.results[0][0].transcript;

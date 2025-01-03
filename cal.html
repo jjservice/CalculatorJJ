@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="cal.css">
     <title>Calculator</title>
 </head>
-<body class="lightPlayer">
+<body>
     <div id="calcualtor">
         <h1 class="lolli-title">LOLLIP<ion-icon name="headset-sharp" onclick="toggleClassPlayer()"></ion-icon>P</h1>
         <h3>&copy;JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h3>
@@ -46,6 +46,18 @@
         <a href="https://jjservice.github.io/L2/1.html" class="homebtn"><ion-icon name="home"></ion-icon></a>
       </div>      
     </div>
+    <footer>
+        <div class="homebtn"><a href="javascript:history.back()"><ion-icon name="arrow-back-sharp"></ion-icon></a></div>
+        <p>&copy;<span id="currentYear"></span>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></p>
+      </footer>
+    
+      <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        
+        // Find the element with id "currentYear" and set its content to the current year
+        document.getElementById("currentYear").textContent = currentYear;
+      </script>
 </body>
 <script src="cal.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
